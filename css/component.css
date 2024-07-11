@@ -277,9 +277,10 @@ p {
 /******** LEFT SIDE SECTION ********/
 
 .about {
-    background: url('../images/placeholderbg.jpg') no-repeat center center;
-    background-size: cover;
-    background-color: #1b1b1b;
+    background: url('../images/placeholderbg.jpeg') no-repeat center center;
+    background-size: 120%;
+    background-color: #000000;
+   
 }
 
 .info-wrapper {  
@@ -361,7 +362,7 @@ p {
 /******** HEADER SECTION ********/
 
 .header {
-  background: url('../images/placeholderbg.jpg') no-repeat center center;
+  background: url('../images/placeholderbg-1.jpg') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
