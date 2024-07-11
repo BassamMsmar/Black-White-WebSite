@@ -7,7 +7,7 @@ new Particles(document.getElementById("particles"), {
     },
 
     // density of particles on the canvas
-    density: 800,  
+    density: 600,  
 
     // speed of the particules
     speed: 0.50, 
@@ -16,6 +16,6 @@ new Particles(document.getElementById("particles"), {
     fps: 60, 
 
     // color of the particles
-    color: "#fff" 
+    color: "#dcdcdc" 
     
 });

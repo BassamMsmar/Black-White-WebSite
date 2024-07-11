@@ -62,7 +62,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    background: #0C0C0C;
     z-index: 6;
     overflow: hidden;
 }
@@ -85,7 +85,7 @@ body {
 .preloader .lines .line {
     width: 90px;
     height: 15px;
-    background-color: #1b1b1b;
+    background-color: #fff;
     position: absolute;
     clip: rect(0,0,20px,0);
 }
@@ -156,7 +156,7 @@ body {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #1b1b1b;
+    color: #fff;
     opacity: 1; /* Firefox */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -279,8 +279,7 @@ p {
 .about {
     background: url('../images/placeholderbg.jpg') no-repeat center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-color: #1b1b1b;
 }
 
 .info-wrapper {  
@@ -297,14 +296,6 @@ p {
     font-size: 24pt;
     letter-spacing: 0pt;
     color: #fff;
-}
-
-.about p {
-    font-size: 10pt;
-    font-weight: 300;
-    letter-spacing: 2pt;
-    color: #d5d5d5;
-    margin-top: 15px;
 }
 
 .about .btn-default {
@@ -388,32 +379,31 @@ p {
 }
 
 .header-wrapper p {
-    color: #fff;
     font-size: 10pt;
     letter-spacing: 2pt;
 }
 
 .header-wrapper h1 {
-    font-size: 20pt;
+    font-size: 22pt;
     letter-spacing: 2pt;
-    line-height: 22pt;
+    line-height: 40pt;
     font-weight: 700;
     color: #fff;
-    margin-top: 20px;
 }
+
 
 /******** ABOUT SECTION START ********/
 
 .info {
     margin: 0;
     padding: 200px 0 200px;
-    background-color: #fff;
+    background-color: #0a0a0a;
 }
 
 .info h2 {
     margin-top: 65px;
     font-size: 24pt;
-    color: #1b1b1b;
+    color: #fff;
     letter-spacing: 1pt;
 }
 
@@ -421,7 +411,7 @@ p {
     margin: 30px 0;
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .info .about-us-txt p {
@@ -431,7 +421,7 @@ p {
     line-height: 18pt;
     letter-spacing: 1pt;
     text-align: justify;
-    color: #898989;
+    color: #dcdcdc;
 }
 
 .img-wrap {
@@ -449,7 +439,7 @@ p {
     content: " ";
     top:55px;
     left:-23px;
-    border: 2px solid #9e9e9e;
+    border: 2px solid rgba(255, 255, 255, .2);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -468,7 +458,7 @@ p {
 .about-icon ul li {
     width: 32px;
     height: 32px;
-    background: #1b1b1b;
+    background: #B68E52;
     line-height: 32px;
     text-align: center;
     margin-right:10px;
@@ -480,17 +470,17 @@ p {
 }
 
 .about-icon ul li>a>i {
-    color: #fff;
+    color: #000000;
 }
  
 /******** RESUME SECTION START ********/
 
 .resume {
-    background-color: #fff;
+    background-color: #0a0a0a;
 }
 
 .resume h2 {
-    color: #1b1b1b;
+    color: #fff;
     font-size: 24pt;
     letter-spacing: 1pt;
 }
@@ -499,52 +489,52 @@ p {
     margin: 30px auto;
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .resume .sm-title {
     font-size: 12pt;
     letter-spacing: 1pt;
-    color: #898989;
+    color: #dcdcdc;
     margin-bottom: 70px;
 }
 
 .resume .year {
     font-size: 12pt;
     font-weight: 400;
-    color: #1b1b1b;
+    color: #fff;
 }
 
 .resume h5 {
     font-size: 14pt;
     letter-spacing: 0pt;
     line-height: 20pt;
-    color: #1b1b1b;
+    color: #fff;
 }
 
 .resume p {
     font-size: 12pt;
     letter-spacing: 1pt;
-    color: #898989;
+    color: #dcdcdc;
 }
 
 .resume hr {
     margin: 50px 0px;
     width: auto;
     height: 2px;
-    background-color: #dcdcdc;
+    background-color: rgba(255, 255, 255, .2);
 }
 
 /******** SKILLS SECTION START ********/
 
 .skill {
-    background-color: #fff;
+    background-color: #0a0a0a;
     padding: 150px 0 170px;
 }
 
 .skill h2 {
     font-size: 24pt;
-    color: #1b1b1b;
+    color: #fff;
     letter-spacing: 1pt;
 }
 
@@ -552,14 +542,14 @@ p {
     margin: 30px auto;
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .skill .sm-title {
     margin-top: 10px;
     font-size: 12pt;
     font-weight: 300;
-    color: #898989;
+    color: #dcdcdc;
     letter-spacing: 1px;
     line-height: 21pt;
 }
@@ -575,11 +565,11 @@ p {
 }
 
 .single_progress_bar .progress-bar {
-    background-color: #1b1b1b;
+    background-color: #B68E52;
 }
 
 .single_progress_bar p{
-    color: #898989;
+    color: #fff;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1pt;
@@ -591,12 +581,12 @@ p {
 /******** SERVICES SECTION START ********/
 
 .service {
-    background-color: #fff;
+    background-color: #0a0a0a;
     padding-bottom: 200px;        
 }
 
 .service .service-wrap {
-    border: 1px solid #dcdcdc;
+    border: 1px solid rgba(255, 255, 255, .2);
     padding: 25px 25px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -604,7 +594,7 @@ p {
 }
 
 .service .service-wrap:hover {
-    border-bottom: 1px solid #1b1b1b;
+    border-bottom: 1px solid #B68E52;
 }
 
 .service .col-md-4 {
@@ -614,14 +604,14 @@ p {
 .service .fa {
     margin-top: 30px;
     font-size: 20pt;
-    color: #9e9e9e;
+    color: #B68E52;
 }
 
 .service .line {
     margin: 30px auto;
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .service hr {
@@ -633,7 +623,7 @@ p {
 
 .service h2 {
     font-size: 24pt;
-    color: #1b1b1b;
+    color: #fff;
     letter-spacing: 1pt;
 }
 
@@ -641,7 +631,7 @@ p {
 	margin: 25px 0;
     font-size: 12pt;
     font-weight: 400;
-    color: #1b1b1b;
+    color: #fff;
     letter-spacing: 1pt;
 }
 
@@ -649,7 +639,7 @@ p {
     margin-top: 10px;
     font-size: 10pt;
     font-weight: 300;
-    color: #898989;
+    color: #dcdcdc;
     letter-spacing: 1px;
     line-height: 16pt;
 }
@@ -659,7 +649,7 @@ p {
     margin-bottom: 40px;
     font-size: 12pt;
     font-weight: 300;
-    color: #898989;
+    color: #dcdcdc;
     letter-spacing: 1px;
     line-height: 21pt;
 }
@@ -667,11 +657,11 @@ p {
 /******** CLIENTS SECTION START ********/
 
 .clients {
-	background-color: #fff;
+	background-color: #0a0a0a;
 }
 
 .clients h2 {
-	color: #1b1b1b;
+	color: #fff;
     font-size: 24pt;
 	letter-spacing: 1pt;
 }
@@ -680,20 +670,20 @@ p {
     margin: 30px auto;
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .clients .sm-title {
     font-size: 12pt;
     letter-spacing: 1pt;
-    color: #898989;
+    color: #dcdcdc;
     margin-bottom: 70px;
 }
 
 /******** LOGOS SECTION START ********/
 
 .logos {
-    background: url('../images/back.jpg') no-repeat center center;
+    background: url('../images/placeholderbg.jpg') no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -714,7 +704,7 @@ p {
 /******** REVIEW SECTION START ********/
 
 .review {
-    background-color: #f5f5f5;
+    background-color: #1b1b1b;
 }
  
 .swiper-container {
@@ -725,7 +715,7 @@ p {
 .swiper-slide {
     padding: 50px 0px;
     text-align: center;
-    background: #f5f5f5;
+    background: #1b1b1b;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -763,11 +753,11 @@ p {
 }
 
 .swiper-wrapper .review-text {
-    padding: 10px 0 20px 0; 
+    padding: 20px 0; 
     font-size: 13pt;
     font-weight: 300;
     letter-spacing: 1pt;
-    color: #1b1b1b;
+    color: #dcdcdc;
     line-height: 23pt;
 }
 
@@ -776,12 +766,13 @@ p {
     margin-bottom: 63px;
     font-size: 10pt;
     font-weight: 400;
-    color: #1b1b1b;
+    color: #dcdcdc;
 }
 
 /******** CONTACT SECTION START ********/
 
 .contact {
+    background-color: #0a0a0a;
     width: auto;
     padding: 150px 0;
 }
@@ -797,13 +788,12 @@ p {
     margin: 30px 0; 
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #dcdcdc;
 }
 
 .contact .fa {
     font-size: 24pt;
     padding-bottom: 20px;
-    color: #9e9e9e;
 }
 
 .contact h2 {
@@ -815,22 +805,21 @@ p {
 }
 
 .contact h4 {
-    color: #1b1b1b;
+    color: #dcdcdc;
     font-size: 10pt;
     letter-spacing: 2pt;
 }
 
 .form {
+    background-color: #0a0a0a;
     padding-top: 200px;
     padding-bottom: 0px;
-    margin: 0 auto;
-    max-width: 800px;
 }
 
 .form h2 {
     font-size: 24pt;
     font-weight: 400;
-    color: #1b1b1b;
+    color: #fff;
     letter-spacing: 1pt;
 }
 
@@ -838,7 +827,7 @@ p {
     margin: 30px auto; 
     width: 30px;
     height: 2px;
-    background-color: #9e9e9e;
+    background-color: #B68E52;
 }
 
 .form .text {
@@ -847,16 +836,16 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 10pt;
-    background-color: none;
-    color: #1b1b1b;
-    border-bottom: 2px solid #9e9e9e;
+    background-color: #111111;
+    color: #fff;
+    border-bottom: 2px solid #1b1b1b;
 }
 
 .form .text:focus {
     transition: border .6s;
     -webkit-transition: border .6s;
     outline: none;
-    border-bottom: 2px solid #1b1b1b;
+    border-bottom: 2px solid #B68E52;
 }
 
 .form .email {
@@ -866,16 +855,16 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 10pt;
-    background-color: none;
-    color: #1b1b1b;
-    border-bottom: 2px solid #9e9e9e; 
+    background-color: #111111;
+    color: #dcdcdc;
+    border-bottom: 2px solid #1b1b1b; 
 }
 
 .form .email:focus {
     transition: border .6s;
     -webkit-transition: border .6s;
     outline: none;
-    border-bottom: 2px solid #1b1b1b;
+    border-bottom: 2px solid #B68E52;
 }
 
 .form .msg {
@@ -885,16 +874,16 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 10pt;
-    background-color: none;
-    color: #1b1b1b;
-    border-bottom: 2px solid #9e9e9e;
+    background-color: #111111;
+    color: #dcdcdc;
+    border-bottom: 2px solid #1b1b1b;
 }
 
 .form .msg:focus {
     transition: border .6s;
     -webkit-transition: border .6s;
     outline: none;
-    border-bottom: 2px solid #1b1b1b;
+    border-bottom: 2px solid #B68E52;
 }
 
 .form .btn {
@@ -902,17 +891,17 @@ p {
     font-size: 10pt;
     letter-spacing: 1pt;
     color: #fff;
-    background-color: #1b1b1b;
+    background-color: #B68E52;
     border-radius: 0px;
     padding: 15px 40px;
     margin-top: 50px;
 }
 
-
 /******** FOOTER SECTION START ********/
 
 footer {
     background-color: #1b1b1b;
+    border-bottom: 8px solid #B68E52;
 }
 
 footer h4 {
@@ -1000,6 +989,7 @@ div.bl-panel-items > div > div {
 	right: 0.1px;
 	left: 0.1px;
 	bottom: 0.1px;
+	 
 	overflow: hidden;
 	overflow-y: auto;
 }
@@ -1309,7 +1299,7 @@ section.bl-expand .bl-icon-close {
     font-size: 14pt;
     font-weight: 400;
     letter-spacing: 6pt;
-    color: #fff;
+    color: #B68E52;
 }
 
 .fact {
@@ -1425,7 +1415,7 @@ section.bl-expand .bl-icon-close {
     -ms-transition: all 0.6s ease-in;
     -o-transition: all 0.6s ease-in;
     transition: all 0.6s ease-in;
-    background-color: #1d1d1d;
+    background-color: #B68E52;
 }
 
 .next:hover {
@@ -1434,7 +1424,7 @@ section.bl-expand .bl-icon-close {
     -ms-transition: all 0.6s ease-in;
     -o-transition: all 0.6s ease-in;
     transition: all 0.6s ease-in;
-    background-color: #1d1d1d;
+    background-color: #B68E52;
 }
 
 .button {
@@ -1548,9 +1538,6 @@ section.bl-expand .bl-icon-close {
     }
 
     @media only screen and (max-width : 480px) {
-       .header-wrapper .photo {
-         width: 70%; 
-       } 
        .about h3 {
          font-size: 16pt;
        }
