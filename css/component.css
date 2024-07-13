@@ -274,10 +274,10 @@ p {
 	background: #1b1b1b;
 }
 
-/******** LEFT SIDE SECTION ********/
+/******** LEFT SIDE SECTION cover********/
 
 .about {
-    background: url('../images/placeholderbg.jpeg') no-repeat center center;
+    background: url('../images/cover.jpg') no-repeat center center;
     background-size: 120%;
     background-color: #000000;
    
