@@ -431,7 +431,7 @@ p {
   margin: 30px 0;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .info .about-us-txt p {
@@ -478,7 +478,7 @@ p {
 .about-icon ul li {
   width: 32px;
   height: 32px;
-  background: #b68e52;
+  background: #898989;
   line-height: 32px;
   text-align: center;
   margin-right: 10px;
@@ -509,7 +509,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .resume .sm-title {
@@ -562,7 +562,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .skill .sm-title {
@@ -585,7 +585,7 @@ p {
 }
 
 .single_progress_bar .progress-bar {
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .single_progress_bar p {
@@ -614,7 +614,7 @@ p {
 }
 
 .service .service-wrap:hover {
-  border-bottom: 1px solid #b68e52;
+  border-bottom: 1px solid #898989;
 }
 
 .service .col-md-4 {
@@ -624,14 +624,14 @@ p {
 .service .fa {
   margin-top: 30px;
   font-size: 20pt;
-  color: #b68e52;
+  color: #898989;
 }
 
 .service .line {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .service hr {
@@ -690,7 +690,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .clients .sm-title {
@@ -847,7 +847,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .form .text {
@@ -865,7 +865,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #b68e52;
+  border-bottom: 2px solid #898989;
 }
 
 .form .email {
@@ -884,7 +884,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #b68e52;
+  border-bottom: 2px solid #898989;
 }
 
 .form .msg {
@@ -903,7 +903,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #b68e52;
+  border-bottom: 2px solid #898989;
 }
 
 .form .btn {
@@ -911,7 +911,7 @@ p {
   font-size: 10pt;
   letter-spacing: 1pt;
   color: #fff;
-  background-color: #b68e52;
+  background-color: #898989;
   border-radius: 0px;
   padding: 15px 40px;
   margin-top: 50px;
@@ -921,7 +921,7 @@ p {
 
 footer {
   background-color: #1b1b1b;
-  border-bottom: 8px solid #b68e52;
+  border-bottom: 8px solid #898989;
 }
 
 footer h4 {
@@ -1317,7 +1317,7 @@ section.bl-expand .bl-icon-close {
   font-size: 14pt;
   font-weight: 400;
   letter-spacing: 6pt;
-  color: #b68e52;
+  color: #898989;
 }
 
 .fact {
@@ -1437,7 +1437,7 @@ section.bl-expand .bl-icon-close {
   -ms-transition: all 0.6s ease-in;
   -o-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .next:hover {
@@ -1446,7 +1446,7 @@ section.bl-expand .bl-icon-close {
   -ms-transition: all 0.6s ease-in;
   -o-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
-  background-color: #b68e52;
+  background-color: #898989;
 }
 
 .button {
