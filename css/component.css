@@ -41,8 +41,6 @@ html {
   padding: 0;
   margin: 0;
   height: 100%;
-
-  
 }
 
 *,
@@ -644,7 +642,8 @@ p {
 .service h2 {
   font-size: 24pt;
   color: #fff;
-  letter-spacing: 1pt;
+  letter-spacing: 0pt;
+  font-family: "Rubik", sans-serif;
 }
 
 .service h4 {
@@ -652,7 +651,8 @@ p {
   font-size: 12pt;
   font-weight: 400;
   color: #fff;
-  letter-spacing: 1pt;
+  letter-spacing: 0pt;
+  font-family: "Rubik", sans-serif;
 }
 
 .service p {
@@ -660,18 +660,20 @@ p {
   font-size: 10pt;
   font-weight: 300;
   color: #dcdcdc;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 16pt;
+  font-family: "Rubik", sans-serif;
 }
 
 .service .sm-title {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 12pt;
   font-weight: 300;
   color: #dcdcdc;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 21pt;
+  font-family: "Rubik", sans-serif;
 }
 
 /******** CLIENTS SECTION START ********/
@@ -834,13 +836,15 @@ p {
   background-color: #0a0a0a;
   padding-top: 200px;
   padding-bottom: 0px;
+  font-family: "Rubik", sans-serif;
 }
 
 .form h2 {
   font-size: 24pt;
   font-weight: 400;
   color: #fff;
-  letter-spacing: 1pt;
+  letter-spacing: 0pt;
+  font-family: "Rubik", sans-serif;
 }
 
 .form .line {
@@ -859,6 +863,7 @@ p {
   background-color: #111111;
   color: #fff;
   border-bottom: 2px solid #1b1b1b;
+  font-family: "Rubik", sans-serif !important;
 }
 
 .form .text:focus {
@@ -866,6 +871,7 @@ p {
   -webkit-transition: border 0.6s;
   outline: none;
   border-bottom: 2px solid #898989;
+  font-family: "Rubik", sans-serif;
 }
 
 .form .email {
@@ -878,6 +884,7 @@ p {
   background-color: #111111;
   color: #dcdcdc;
   border-bottom: 2px solid #1b1b1b;
+  font-family: "Rubik", sans-serif;
 }
 
 .form .email:focus {
@@ -909,12 +916,13 @@ p {
 .form .btn {
   font-weight: 400;
   font-size: 10pt;
-  letter-spacing: 1pt;
+  letter-spacing: 0pt;
   color: #fff;
   background-color: #898989;
   border-radius: 0px;
   padding: 15px 40px;
   margin-top: 50px;
+  font-family: "Rubik", sans-serif;
 }
 
 /******** FOOTER SECTION START ********/
