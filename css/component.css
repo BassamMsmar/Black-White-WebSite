@@ -207,7 +207,7 @@ h6 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 10pt;
-  color: #898989;
+  color: #fff;
   line-height: 25px;
   letter-spacing: 0pt;
 }
@@ -429,7 +429,7 @@ p {
   margin: 30px 0;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .info .about-us-txt p {
@@ -476,7 +476,7 @@ p {
 .about-icon ul li {
   width: 32px;
   height: 32px;
-  background: #898989;
+  background: #fff;
   line-height: 32px;
   text-align: center;
   margin-right: 10px;
@@ -507,7 +507,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .resume .sm-title {
@@ -560,7 +560,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .skill .sm-title {
@@ -583,7 +583,7 @@ p {
 }
 
 .single_progress_bar .progress-bar {
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .single_progress_bar p {
@@ -612,7 +612,7 @@ p {
 }
 
 .service .service-wrap:hover {
-  border-bottom: 1px solid #898989;
+  border-bottom: 1px solid #fff;
 }
 
 .service .col-md-4 {
@@ -622,14 +622,14 @@ p {
 .service .fa {
   margin-top: 30px;
   font-size: 20pt;
-  color: #898989;
+  color: #fff;
 }
 
 .service .line {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .service hr {
@@ -692,7 +692,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .clients .sm-title {
@@ -851,7 +851,7 @@ p {
   margin: 30px auto;
   width: 30px;
   height: 2px;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .form .text {
@@ -870,7 +870,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #898989;
+  border-bottom: 2px solid #fff;
   font-family: "Rubik", sans-serif;
 }
 
@@ -891,7 +891,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #898989;
+  border-bottom: 2px solid #fff;
 }
 
 .form .msg {
@@ -910,7 +910,7 @@ p {
   transition: border 0.6s;
   -webkit-transition: border 0.6s;
   outline: none;
-  border-bottom: 2px solid #898989;
+  border-bottom: 2px solid #fff;
 }
 
 .form .btn {
@@ -918,7 +918,7 @@ p {
   font-size: 10pt;
   letter-spacing: 0pt;
   color: #fff;
-  background-color: #898989;
+  background-color: #fff;
   border-radius: 0px;
   padding: 15px 40px;
   margin-top: 50px;
@@ -929,7 +929,7 @@ p {
 
 footer {
   background-color: #1b1b1b;
-  border-bottom: 8px solid #898989;
+  border-bottom: 8px solid #fff;
 }
 
 footer h4 {
@@ -1107,7 +1107,7 @@ div.bl-panel-items > div > div p {
   font-size: 11pt;
   line-height: 16pt;
   letter-spacing: 1pt;
-  color: #898989;
+  color: #fff;
   margin-top: 15px;
 }
 
@@ -1325,7 +1325,7 @@ section.bl-expand .bl-icon-close {
   font-size: 14pt;
   font-weight: 400;
   letter-spacing: 6pt;
-  color: #898989;
+  color: #fff;
 }
 
 .fact {
@@ -1445,7 +1445,7 @@ section.bl-expand .bl-icon-close {
   -ms-transition: all 0.6s ease-in;
   -o-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .next:hover {
@@ -1454,7 +1454,7 @@ section.bl-expand .bl-icon-close {
   -ms-transition: all 0.6s ease-in;
   -o-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
-  background-color: #898989;
+  background-color: #fff;
 }
 
 .button {
