@@ -1696,3 +1696,8 @@ section.bl-expand .bl-icon-close {
   letter-spacing: 0pt;
   font-family: "Rubik", "sans-serif" !important;
 }
+
+.custom-icon {
+  font-size: 20pt; /* حجم الرمز المخصص */
+  margin-top: 30px;
+}
