@@ -29,11 +29,13 @@
   font-style: normal;
 }
 
-.Rubik {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
+
 
 body,
 html {
@@ -171,7 +173,7 @@ body {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: 1; /* Firefox */
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 8pt;
   letter-spacing: 2pt;
@@ -205,7 +207,7 @@ h6 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 10pt;
   color: #fff;
   line-height: 25px;
