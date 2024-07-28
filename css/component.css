@@ -1695,6 +1695,7 @@ section.bl-expand .bl-icon-close {
 .default-setting {
   letter-spacing: 0pt;
   font-family: "Rubik", "sans-serif" !important;
+  font-weight:bold;
 }
 
 .custom-icon {
@@ -1709,7 +1710,7 @@ section.bl-expand .bl-icon-close {
   overflow: hidden;
   max-width: 100%;
   background: #000;
- 
+  margin-bottom: 20px; /* إضافة مسافة بين الفديوهات */
 }
 
 .video-container iframe {
@@ -1718,5 +1719,4 @@ section.bl-expand .bl-icon-close {
   left: 0;
   width: 100%;
   height: 100%;
-  
 }
