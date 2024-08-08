@@ -36,7 +36,6 @@
   font-style: normal;
 }
 
-
 body,
 html {
   font-size: 100%;
@@ -1696,8 +1695,8 @@ section.bl-expand .bl-icon-close {
 }
 .default-setting {
   letter-spacing: 0pt;
-  font-family: "Rubik", "sans-serif" !important;
-  font-weight:bold;
+  font-family: "sans-serif";
+  font-weight: bold;
 }
 
 .custom-icon {
