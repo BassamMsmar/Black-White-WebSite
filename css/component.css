@@ -354,7 +354,8 @@ p {
   color: #1b1b1b;
   font-size: 22pt;
   font-weight: 400;
-  letter-spacing: 1pt;
+  letter-spacing: 0pt;
+  direction: rtl;
 }
 
 .visit-btn .btn-default {
