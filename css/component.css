@@ -1724,3 +1724,10 @@ section.bl-expand .bl-icon-close {
   width: 100%;
   height: 100%;
 }
+
+
+.ah-headline {
+  direction: rtl; /* التأكد من اتجاه النص */
+  unicode-bidi: isolate; /* منع خلط النصوص متعددة الاتجاهات */
+  font-family: 'Arial', 'Tahoma', sans-serif; /* استخدام خط يدعم العربية بشكل جيد */
+}
