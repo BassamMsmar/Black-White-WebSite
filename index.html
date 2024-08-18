@@ -498,26 +498,39 @@
 
          <!-- Portfolio Section -->
 
-         <section id="bl-work-section #typed-text">
+         <section id="bl-work-section">
             <div class="bl-box">
                <div class="col-md-12 text-center">
                   <div class="selector">
                      <h1 class="title">
-                        <span class="default-setting" style="font-weight:bold">خدماتنا : </span>
-                        <span class="ah-words-wrapper">
-                           <b class="is-visible default-setting" style="font-weight:normal">إنتاج سينمائي</b>
-                           <b class="default-setting" style="font-weight:normal">إعلانات تجارية</b>
-                           <b class="default-setting" style="font-weight:normal">المؤثرات البصرية</b>
-                           <b class="default-setting" style="font-weight:normal">العروض ثلاثية الأبعاد </b>
-                           <b class="default-setting" style="font-weight:normal">أفلام وثائقية </b>
-                           <b class="default-setting" style="font-weight:normal">التلحين والغناء </b>
-                           <b class="default-setting" style="font-weight:normal">الموسيقى التصويرية</b>
-                        </span>
+                        <div class="d-block">
+                           <span class="default-setting" style="font-weight:bold">خدماتنا : </span>
+                        </div>
+                        <div class="d-block">
+                           <span class="ah-words-wrapper">
+                              <b class="default-setting" style="font-weight:normal">إنتاج سينمائي</b>
+                              <b class="default-setting" style="font-weight:normal">إعلانات تجارية</b>
+                              <b class="default-setting" style="font-weight:normal">المؤثرات البصرية</b>
+                              <b class="default-setting" style="font-weight:normal">العروض ثلاثية الأبعاد</b>
+                              <b class="default-setting" style="font-weight:normal">أفلام وثائقية</b>
+                              <b class="default-setting" style="font-weight:normal">التلحين والغناء</b>
+                              <b class="default-setting" style="font-weight:normal">الموسيقى التصويرية</b>
+                              <b class="default-setting" style="font-weight:normal">إنتاج سينمائي</b>
+                              <b class="default-setting" style="font-weight:normal">إعلانات تجارية</b>
+                              <b class="default-setting" style="font-weight:normal">المؤثرات البصرية</b>
+                              <b class="default-setting" style="font-weight:normal">العروض ثلاثية الأبعاد</b>
+                              <b class="default-setting" style="font-weight:normal">أفلام وثائقية</b>
+                              <b class="default-setting" style="font-weight:normal">التلحين والغناء</b>
+                              <b class="default-setting" style="font-weight:normal">الموسيقى التصويرية</b>
+                           </span>
+                        </div>
                      </h1>
                   </div>
-                  <p class="title Rubik text-black">موقعنا : الممكلة العربية السعودية - الدمام</p>
-                  <div class="visit-btn">
-                     <a class="btn btn-default" href="#" role="button"> تصفح مشاريعنا</a>
+                  <div class="d-inline-block mt-5 "> 
+                     <p class="title Rubik text-black">موقعنا : المملكة العربية السعودية - الدمام</p>
+                     <div class="visit-btn">
+                        <a class="btn btn-default" href="#" role="button">تصفح مشاريعنا</a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -860,24 +873,30 @@
       const words = document.querySelectorAll('.ah-words-wrapper > b');
 
       // إنشاء التايم لاين الرئيسي
-      let main = new TimelineMax({ repeat: -1 });
+      let main = gsap.timeline({ repeat: -1, repeatDelay: 1 }); // إضافة تأخير بين التكرارات
 
-      for (let i = 0; i < words.length; i++) {
-         let delay = i - 1;
-         let wordTL = new TimelineMax();
+      const duration = 2; // مدة الحركة
+      const delayBetween = 2; // التأخير بين النصوص
 
-         // حركات الدخول والخروج
-         if (i !== 0) {
-            wordTL.from(words[i], 1, { y: '-100%', opacity: 0 });
+      words.forEach((word, index) => {
+         // حركة الدخول والخروج
+         let wordTL = gsap.timeline();
+
+         // حركة الدخول
+         if (index !== 0) {
+            wordTL.from(word, { x: '100%', opacity: 0, duration: duration, ease: 'power1.inOut' });
          }
 
-         if (i !== words.length - 1) {
-            wordTL.to(words[i], 1, { y: '100%', opacity: 0 });
+         // حركة الخروج
+         if (index !== words.length - 1) {
+            wordTL.to(word, { x: '-100%', opacity: 0, duration: duration, ease: 'power1.inOut' });
          }
 
-         // إضافة التايم لاين الفرعي إلى التايم لاين الرئيسي
-         main.add(wordTL, delay);
-      }
+         // إضافة التايم لاين الفرعي إلى التايم لاين الرئيسي مع تأخير
+         main.add(wordTL, index * delayBetween);
+      });
+
+
    </script>
 </body>
 

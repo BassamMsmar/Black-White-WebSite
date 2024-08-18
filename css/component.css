@@ -1698,7 +1698,7 @@ section.bl-expand .bl-icon-close {
 }
 .default-setting {
   letter-spacing: 0pt;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -1725,19 +1725,42 @@ section.bl-expand .bl-icon-close {
   height: 100%;
 }
 
-body {
-  font-size: 6rem;
-  font-family: sans-serif;
-}
-.rotator {
-  position: relative;
-  vertical-align: text-bottom;
-  margin-left: 1rem;
-
-  & > span {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+.col-md-12 {
+  padding: 0;
+  margin: 0;
 }
 
+.selector {
+  text-align: center; /* تأكد من أن العناصر في المنتصف */
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+/* تنسيق النصوص بشكل منفصل */
+.default-setting.bold {
+  font-weight: bold;
+  display: block; /* اجعل النص "خدماتنا :" يظهر في سطر منفصل */
+  margin-bottom: 1rem; /* تعديل المسافة بين النصوص */
+}
+
+/* تنسيق العناصر في السطر التالي */
+.ah-words-wrapper {
+  display: inline-block; /* اجعل العناصر تظهر في سطر منفصل */
+  white-space: nowrap; /* منع التفاف النصوص */
+}
+
+/* تنسيق العناصر داخل .ah-words-wrapper */
+.ah-words-wrapper > b {
+  display: inline; /* اجعل كل عنصر <b> يظهر في نفس السطر */
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* التأكد من أن النصوص باللغة العربية من اليمين إلى اليسار */
+.ah-words-wrapper {
+  direction: rtl; /* جعل النصوص تظهر من اليمين إلى اليسار */
+}
