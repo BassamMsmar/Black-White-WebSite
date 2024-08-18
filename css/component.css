@@ -1725,9 +1725,19 @@ section.bl-expand .bl-icon-close {
   height: 100%;
 }
 
-
-.ah-headline {
-  direction: rtl; /* التأكد من اتجاه النص */
-  unicode-bidi: isolate; /* منع خلط النصوص متعددة الاتجاهات */
-  font-family: 'Arial', 'Tahoma', sans-serif; /* استخدام خط يدعم العربية بشكل جيد */
+body {
+  font-size: 6rem;
+  font-family: sans-serif;
 }
+.rotator {
+  position: relative;
+  vertical-align: text-bottom;
+  margin-left: 1rem;
+
+  & > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+

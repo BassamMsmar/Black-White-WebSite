@@ -502,7 +502,7 @@
             <div class="bl-box">
                <div class="col-md-12 text-center">
                   <div class="selector">
-                     <h1 class="ah-headline">
+                     <h1 class="title">
                         <span class="default-setting" style="font-weight:bold">خدماتنا : </span>
                         <span class="ah-words-wrapper">
                            <b class="is-visible default-setting" style="font-weight:normal">إنتاج سينمائي</b>
@@ -512,7 +512,6 @@
                            <b class="default-setting" style="font-weight:normal">أفلام وثائقية </b>
                            <b class="default-setting" style="font-weight:normal">التلحين والغناء </b>
                            <b class="default-setting" style="font-weight:normal">الموسيقى التصويرية</b>
-
                         </span>
                      </h1>
                   </div>
@@ -848,12 +847,37 @@
    <script src="js/particles-custom.js"></script>
    <script src="js/swiper.min.js"></script>
    <script src="js/custom.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
    <script src="js/boxlayout.js"></script>
 
    <script>
       $(function () {
          Boxlayout.init();
       });
+   </script>
+   <script>
+      const words = document.querySelectorAll('.ah-words-wrapper > b');
+
+      // إنشاء التايم لاين الرئيسي
+      let main = new TimelineMax({ repeat: -1 });
+
+      for (let i = 0; i < words.length; i++) {
+         let delay = i - 1;
+         let wordTL = new TimelineMax();
+
+         // حركات الدخول والخروج
+         if (i !== 0) {
+            wordTL.from(words[i], 1, { y: '-100%', opacity: 0 });
+         }
+
+         if (i !== words.length - 1) {
+            wordTL.to(words[i], 1, { y: '100%', opacity: 0 });
+         }
+
+         // إضافة التايم لاين الفرعي إلى التايم لاين الرئيسي
+         main.add(wordTL, delay);
+      }
    </script>
 </body>
 
